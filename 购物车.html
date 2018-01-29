@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<div class="shang">
+							<div class="li_gou">
+								<span>1号店</span>
+								<span>共1件商品</span>
+							</div>
+							
+		<div class="products">
+								<div class="pro_l">
+									<img src="img/yun6.png"/>
+								</div>
+								<div class="pro_r">
+									<p>宝贝许愿房 童装女装套装<span class="del">X</span></p>
+									<p style="font-size: 10px;">深蓝 140码</p>
+									<div class="dom">
+										<span class="lose" style="background: gainsboro;">-</span>
+										<span class="num">1</span>
+										<span class="add" style="background: gainsboro;">+</span>
+									</div>
+									<div class="price">
+										190
+									</div>
+								</div>
+							</div>
+							
+						</div>
+						<div class="shang">
+							<div class="li_gou">
+								<span>1号店</span>
+								<span>共1件商品</span>
+							</div>
+							<div class="products">
+								<div class="pro_l">
+									<img src="img/yun6.png"/>
+								</div>
+								<div class="pro_r">
+									<p>宝贝许愿房 童装女装套装<span class="del">X</span></p>
+									<p style="font-size: 10px;">深蓝 140码</p>
+									<div class="dom">
+										<span class="lose" style="background: gainsboro;">-</span>
+										<span class="num">1</span>
+										<span class="add" style="background: gainsboro;">+</span>
+									</div>
+									<div class="price">
+										190
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="shang">
+							<div class="li_gou">
+								<span>1号店</span>
+								<span>共1件商品</span>
+							</div>
+							
+							<div class="products">
+								<div class="pro_l">
+									<img src="img/yun6.png"/>
+								</div>
+								
+								<div class="pro_r">
+									<p>宝贝许愿房 童装女装套装<span class="del">X</span></p>
+									<p style="font-size: 10px;">深蓝 140码</p>
+									
+									<div class="dom">
+										<span class="lose" style="background: gainsboro;">-</span>
+										<span class="num">1</span>
+										<span class="add" style="background: gainsboro;">+</span>
+									</div>
+									
+									<div class="price">
+										190
+									</div>
+									
+								</div>
+							</div>
+						
+						</div>
+						<div class="all_gou">
+							<div>合计：<span class="zj">925.6</span></div>
+							<div style="background: #FF3F3F;color: white;">立即结算（<span class="shu">3</span>）</div>
+						</div>
+						
+					</div>
+	</body>
+	<script type="text/javascript" src="js/jquery-1.11.3.js" ></script>
+	<script>
+		
+	//---------减
+			$(".dom>.lose").click(function(){
+				var num=$(this).next().html();
+				num--;
+				if (num<0) {
+					num=0
+				}
+				$(this).next().html(num);
+				 all()
+				 allprice()
+			})
+	//---------加
+			$(".dom>.add").click(function(){
+				var num=$(this).prev().html();
+				num++;
+				$(this).prev().html(num);
+				 all()
+				 allprice()
+			})
+	//---------总数量
+			function all(){
+			var s = 0;
+			$(".dom").each(function(){
+				var all = parseInt($(this).children(".num").html());
+				s+=all;
+			});
+			$(".shu").html(s);
+			}
+
+
+
+
+////---------总价钱
+		function allprice(){
+			var x = 0;
+			$(".pro_r").each(function(){
+				var price = $(this).find(".price").html();
+				var n = $(this).find(".num").html();
+//				console.log(price+"-----"+n);
+				var s = price*n;
+				x+=s;
+				console.log(price)
+			})
+			$(".zj").html(x);
+		}
+	$(".all_gou").click(function(){
+		
+		$(".gou").css("display","none");
+	})
+	</script>
+</html>
+
+
+

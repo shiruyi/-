@@ -1,0 +1,124 @@
+{
+"com1":[
+        {
+		"img":"img/index/首页完成后效果_27.png",
+		"text1":"德国进口",
+		"text2":"德亚全国纯牛奶200ml*48盒",
+		"text3":"￥189",
+		"text4":"26R"
+		},
+		{
+			"img":"img/index/首页完成后效果_29.png",
+			"text1":"iphone 6S",
+			"text2":"Apple/苹果 iPhone 6S Plus公开版",
+			"text3":"￥5288",
+			"text4":"25R"
+		},
+		{
+			"img":"img/index/首页完成后效果_31.png",
+			"text1":"倩碧特惠组合套装",
+			"text2":"倩碧补水组合套装8折促销",
+			"text3":"￥368",
+			"text4":"18R"
+		},
+		{
+			"img":"img/index/首页完成后效果_33.png",
+			"text1":"品利特级橄榄油",
+			"text2":"750ml*4瓶装组合 西班牙原装进口",
+			"text3":"￥280",
+			"text4":"30R"
+		}
+	],
+	"com2":[
+	     {
+	    	 "text1":"贝思客 草莓先生&草莓小姐",
+	    	 "text2":"￥98.00",
+	    	 "img":"img/index/首页完成后效果_51.png"
+	     },
+	     {
+	    	 "text1":"微笑果园SMILE 智利进口绿奇异果",
+	    	 "text2":"￥84.00",
+	    	 "img":"img/index/首页完成后效果_53.png"
+	     },
+	     {
+	    	 "text1":"新鲜美味 进口美食",
+	    	 "text2":"￥98.00",
+	    	 "img":"img/index/首页完成后效果_55.png"
+	     },
+	     {
+	    	 "text1":"新鲜美味 进口美食",
+	    	 "text2":"￥24.00",
+	    	 "img":"img/index/首页完成后效果_65.png"
+	     },
+	     {
+	    	 "text1":"新鲜美味 纯牛奶",
+	    	 "text2":"￥142.00",
+	    	 "img":"img/index/首页完成后效果_68.png"
+	     },
+	     {
+	    	 "text1":"莫斯利安",
+	    	 "text2":"￥62.00",
+	    	 "img":"img/index/首页完成后效果_62.png"
+	     },
+			{
+			"text1":"美宝莲粉饼",
+			"text2":"￥260.00",
+			"img":"img/index/首页完成后效果_83.png"
+			},  
+			{
+			"text1":"洗衣液",
+			"text2":"￥60.00",
+			"img":"img/index/首页完成后效果_85.png"
+			}, 
+			{
+			"text1":"洗发水",
+			"text2":"￥160.00",
+			"img":"img/index/首页完成后效果_80.png"
+			}, 
+			{
+			"text1":"男士洗发水",
+			"text2":"￥120.00",
+			"img":"img/index/首页完成后效果_91.png"
+			}, 
+			{
+			"text1":"美宝莲粉饼",
+			"text2":"￥260.00",
+			"img":"img/index/首页完成后效果_93.png"
+			}, 
+			{
+			"text1":"男士设计 洗面奶",
+			"text2":"￥90.00",
+			"img":"img/index/首页完成后效果_96.png"
+			},
+			{
+			"text1":"儿童推",
+			"text2":"￥560.00",
+			"img":"img/index/首页完成后效果_106.png"
+			},
+			{
+				"text1":"妈咪纸尿裤",
+				"text2":"￥260.00",
+				"img":"img/index/首页完成后效果_108.png"
+				}, 
+				{
+				"text1":"儿童玩具 挖掘机",
+				"text2":"￥160.00",
+				"img":"img/index/首页完成后效果_110.png"
+				}, 
+				{
+				"text1":"纸尿布",
+				"text2":"￥260.00",
+				"img":"img/index/首页完成后效果_116.png"
+				}, 
+				{
+				"text1":"儿童推车",
+				"text2":"￥86.00",
+				"img":"img/index/首页完成后效果_117.png"
+				},
+				{
+				"text1":"奶粉",
+				"text2":"￥660.00",
+				"img":"img/index/首页完成后效果_119.png"
+				}
+	   ]
+}

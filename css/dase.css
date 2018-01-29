@@ -1,0 +1,348 @@
+body,
+html,
+ul,
+input,ol {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 10px;
+}
+
+.header-top {
+	width: 100%;
+	height: 3.5rem;
+	background: #DBDBDB;
+	background: linear-gradient(#DBDBDB, #ffffff);
+
+}
+
+.header-top-left {
+	float: left;
+	margin-left: 5rem;
+	line-height: 3.5rem;
+}
+
+.header-top-left p {
+	margin: 0;
+}
+
+.header-top-right {
+	float: right;
+	margin-right: 3rem;
+}
+
+.header-top-right li{
+	float: left;
+	padding: 0 0.3rem;
+	line-height: 3.5rem;
+	position: relative;
+}
+.header-top-right li:hover ol{
+	display: block;
+}  
+.header-top-right li a {
+	color: black;
+}
+.header-top-right li ol {
+	background: white;
+        width: 55px;
+        position: absolute;
+        z-index: 999;
+        text-align: center;
+        font-size: 12px;
+        top: 40px;
+        display: none;
+         }
+/*.header-top-right li ol {
+	display: none;
+}
+
+.header-top-right li ol>li{
+				height:30px;
+				line-height: 40px;
+				text-align: center;
+				z-index: 999;
+			}
+*/
+.header-bottom {
+	z-index: 1;
+	width: 100%;
+	height: 14rem;
+	clear: initial;
+	padding-top: 4.5rem;
+}
+
+.header-bottom .logo {
+	float: left;
+}
+
+.header-bottom .logo img {
+	float: left;
+	margin-left: 5rem;
+}
+
+.header-bottom div:nth-of-type(2) {
+	width: 51rem;
+	float: left;
+	margin-left: 12rem;
+}
+
+.header-bottom div:nth-of-type(2) .search {
+	height: 3.7rem;
+}
+
+.header-bottom div:nth-of-type(2) .search input {
+	float: left;
+	width: 40.8rem;
+	height: 35px;
+	border: 1px solid #FF3C3C;
+}
+
+.header-bottom div:nth-of-type(2) .search .search-btn1 {
+	float: left;
+	width: 10rem;
+	height: 3.7rem;
+	background: #FF3C3C;
+	border: none;
+	color: white;
+	padding: 0;
+}
+
+.header-bottom div:nth-of-type(2) .search-ul {
+	font-size: 1.2rem;
+}
+
+.header-bottom div:nth-of-type(2) .search-ul li {
+	float: left;
+	padding: 0 0.8rem;
+}
+
+.header-bottom .gouwu {
+	float: left;
+	margin-left: 21.5rem;
+	width: 12rem;
+	height: 4rem;
+	border: 1px solid gray;
+	font-size: 1.2rem;
+	line-height: 4rem;
+	position: relative;
+}
+
+.header-bottom .gouwu img {
+	margin-top: 0.9rem;
+	float: left;
+}
+
+.header-bottom .gouwu>p {
+	float: left;
+	margin: 0;
+}
+
+.gouwuche{
+	width: 300px;
+	height: 590px;
+	border-top: 3px solid red;
+	position: absolute;
+	top: 40px;
+	right: 0;
+	background: white;
+	display: none;
+	z-index: 988;
+} 
+.gouwuche_div{
+	border-bottom: 1px solid darkgray;	
+	margin: 0 !important;
+	width: 300px !important;
+	overflow: hidden;
+}
+.gouwuche_div>img{
+	float: left;
+}
+.gouwuchep{
+	width: 100%;
+}
+.gouwuchep>p{
+	float: left;
+	margin: 0;
+}
+.gouwuchep>span{
+	float: right;
+}
+.gouwuche_div1{
+	margin: 0 !important;
+	width: 300px !important;
+	border-bottom: 1px solid lightgray;
+}
+.gouwuche_div1>div{
+	float: left;
+	width: 170px;
+	height: 100px;
+}
+.gouwuche_div1 img{
+	margin:0;
+}
+.gouwuche_div1 button{
+	text-align: center;
+	line-height: 35px;
+	width: 30px;
+	height: 35px;
+	padding: 0;
+	float: left;
+}
+.gouwuche_div1 div span{
+	width: 35px;
+	height: 35px;
+	float: left;
+	border: 1px solid lightgray;
+	text-align: center;
+	line-height: 35px;
+}
+.gouwuche_div1>p{
+	float: right;
+	line-height: 100px;
+	color: #FF383B;
+	padding-right: 5px;
+}
+.gouwuche_div2{
+	width: 300px !important;
+	margin: 0 !important;
+	height: 30px !important;
+	line-height: 30px !important;
+	text-align: center;
+	color:blue;
+}
+.gouwuche_div3{
+	width: 300px;
+	height: 70px;
+	border: 1px solid #D4D6D5;
+}
+.gouwuche_div3 div{
+	width: 149px !important;
+	margin: 0 !important;
+	float: left !important;
+	height: 70px;
+	text-align: center;
+	font-size: 14px;
+	line-height: 70px;
+}.gouwuche_div3 div:nth-of-type(2){
+	background: #FF5C4D;
+	color: white;
+}
+.footer-top {
+	margin-left: 11rem;
+	width: 120rem;
+	padding-left: 8.5rem;
+	overflow: hidden;
+}
+.gouwuche_div1 h5{
+	margin: 0;
+}
+.gouwuche_div1 p{
+	margin: 0;
+}
+.gouwuche_div1>p{
+	width: 38px;
+}
+.footer-top div {
+	float: left;
+	padding: 0 6rem;
+	text-align: center;
+}
+
+.footer-top div p {
+	margin-bottom: 0.5rem;
+}
+
+.footer-top div span {
+	font-size: 1.2rem;
+	color: #888888;
+}
+
+.footer-conter {
+	width: 120rem;
+	margin-left: 11rem;
+}
+
+.footer-nav {
+	width: 82.5rem;
+	padding-left: 5rem;
+	float:left;
+}
+
+.footer-nav dl {
+	float: left;
+	width: 155px;
+}
+
+.footer-nav dl dt {
+	padding-bottom: 1.5rem;
+}
+
+.footer-nav dl dd {
+	padding: 0.5rem 0;
+	color: #888888;
+}
+
+.footer-conter {
+	margin-top: 6rem;
+	overflow: hidden;
+}
+.footer-conter-right{
+	width: 30rem;
+	float:left;
+}
+.footer-conter-ma {
+	float: left;
+	margin-left: 5rem;
+}
+
+.footer-conter-text {
+	margin-left: 1rem;
+	float: left;
+}
+
+.footer-conter-text span {
+	font-size: 1rem;
+	color: #888888;
+}
+
+.footer-conter-p {
+	font-size: 1.4rem;
+	color: red;
+}
+
+.footer-bottom {
+	width: 120rem;
+	margin: 0 auto;
+}
+
+.footer-bottom p {
+	text-align: center;
+	color: #888888;
+}
+
+.footer-bottom img {
+	border: 1px solid #888888;
+	margin: 0 0.5rem;
+}
+
+.footer-bottom-img {
+	padding-left: 25rem;
+}
+
+.footer-top {
+	margin-top: 5rem;
+}
+
+.footer-top div img {
+	transition: all 3s;
+}
+
+.footer-top div img:hover {
+	transform: rotate(360deg) scale(1.2);
+}
+
+.header-top-right li:hover ol{
+	display: block;
+}
+/*# sourceMappingURL=dase.css.map */
